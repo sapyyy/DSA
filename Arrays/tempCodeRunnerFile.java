@@ -1,0 +1,1 @@
+arr.contains(b[j])
