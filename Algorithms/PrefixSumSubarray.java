@@ -25,7 +25,7 @@ public class PrefixSumSubarray {
             // check whether it is present or not
             if (prefix.containsKey(diff)){
                 int key = prefix.get(diff);
-                int subLen = prefix.get(sum) - key;
+                int subLen = i - key;
                 
                 maxLen = Math.max(maxLen, subLen);
             }
