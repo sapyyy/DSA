@@ -1,1 +1,1 @@
-arr.contains(b[j])
+Integer.MIN_VALUE
