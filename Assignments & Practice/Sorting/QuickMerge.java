@@ -95,6 +95,6 @@ public class QuickMerge {
     }
     public static void main (String[] args) {
         quickSort(new Integer[]{15,88,33,22,10}, 0, 4);
-        quickSort(new Integer[]{15,88,33,22,10}, 0, 4);
+        //mergeSorts(new Integer[]{15,88,33,22,10}, 0, 4);
     }
 }

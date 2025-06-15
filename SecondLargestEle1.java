@@ -1,4 +1,4 @@
-public class SecondLargestEle {
+public class SecondLargestEle1 {
     public static void main(String[] args) {
         int arr[] = {-232,3223,34353,533,2113,323,-3249};
 
