@@ -1,6 +1,3 @@
-import java.lang.reflect.Array;
-import java.util.Arrays;
-
 public class RowWithMaxOnes {
     public static int rowWithMax1s(int arr[][]) {
         int maxOnes = 0;
