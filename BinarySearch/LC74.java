@@ -70,7 +70,6 @@ public class LC74 {
             else {
                 high = mid - 1;
             }
-
         }
         return false;
     }
