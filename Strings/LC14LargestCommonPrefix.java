@@ -1,5 +1,7 @@
 package Strings;
 
+import java.util.Arrays;
+
 class LC14LargestCommonPrefix {
     public String longestCommonPrefix(String[] strs) {
         if (strs.length == 1) return strs[0];
@@ -38,6 +40,26 @@ class LC14LargestCommonPrefix {
         }
 
         return lcs.toString();
+    }
+
+    // optimal
+    public String longestCommonPrefixOptimal(String[] strs) {
+        Arrays.sort(strs); 
+
+        String firstWord = strs[0];
+        String lastWord = strs[strs.length - 1];
+
+        int count = 0;
+        for (int i=0; i<firstWord.length(); i++) {
+            if (firstWord.charAt(i) == lastWord.charAt(i)) {
+                count++;
+            }
+            else {
+                break;
+            }
+        }
+
+        return firstWord.substring(0, count);
     }
     public static void main(String[] args) {
         
